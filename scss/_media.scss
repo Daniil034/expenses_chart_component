@@ -1,0 +1,79 @@
+@media screen and (max-width: 550px) {
+    .chart__visualization-spent {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 5px;
+        top: -32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .item-header {
+        padding: 20px 24px 22px 20px;
+
+        &__title {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        &__sum {
+            font-size: 24px;
+            line-height: 31px;
+        }
+
+        &__logo {
+            width: 60px;
+        }
+    }
+
+    .item-inform {
+        padding: 24px 20px;
+
+        &__title {
+            font-size: 24px;
+            line-height: 31px;
+            margin-bottom: 52px;
+        }
+
+        &__footer {
+            margin-top: 24px;
+        }
+
+        &__total-title {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        &__total-spent {
+            font-size: 30px;
+            line-height: 39px;
+        }
+
+        &__increase-percent {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        &__last-month {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+
+    .chart {
+        gap: 12px;
+        padding-bottom: 26px;
+
+        &__visualization-spent {
+            font-weight: 400;
+        }
+
+        &__day {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+
+
+}

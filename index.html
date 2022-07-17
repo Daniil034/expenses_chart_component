@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Chart Component</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <script type="module" src="./resources/javascript/main.js" defer></script>
+</head>
+
+<body>
+    <div class="expenses-item">
+        <div class="expenses-item__header item-header">
+            <div class="item-header__balance">
+                <h2 class="item-header__title">My balance</h2>
+                <p class="item-header__sum">$921.48</p>
+            </div>
+            <div class="item-header__logo">
+                <img src="./resources/images/logo.svg" alt="">
+            </div>
+        </div>
+        <div class="expenses-item__inform item-inform">
+            <h3 class="item-inform__title">Spending - Last 7 days</h3>
+            <div class="item-inform__chart chart">
+                <div class="chart__item">
+                    <div class="chart__visualization" id="monday">
+                        <span class="chart__visualization-column">
+                            <span class="chart__visualization-spent"></span>
+                        </span>
+                    </div>
+                    <div class="chart__day">mon</div>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__visualization" id="tuesday">
+                        <span class="chart__visualization-column">
+                            <span class="chart__visualization-spent"></span>
+                        </span>
+                    </div>
+                    <div class="chart__day">tue</div>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__visualization" id="wednesday">
+                        <span class="chart__visualization-column">
+                            <span class="chart__visualization-spent"></span>
+                        </span>
+                    </div>
+                    <div class="chart__day">wed</div>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__visualization" id="thursday">
+                        <span class="chart__visualization-column">
+                            <span class="chart__visualization-spent"></span>
+                        </span>
+                    </div>
+                    <div class="chart__day">thu</div>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__visualization" id="friday">
+                        <span class="chart__visualization-column">
+                            <span class="chart__visualization-spent"></span>
+                        </span>
+                    </div>
+                    <div class="chart__day">fri</div>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__visualization" id="saturday">
+                        <span class="chart__visualization-column">
+                            <span class="chart__visualization-spent"></span>
+                        </span>
+                    </div>
+                    <div class="chart__day">sat</div>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__visualization" id="sunday">
+                        <span class="chart__visualization-column">
+                            <span class="chart__visualization-spent"></span>
+                        </span>
+                    </div>
+                    <div class="chart__day">sun</div>
+                </div>
+            </div>
+            <div class="item-inform__footer">
+                <div class="item-inform__total">
+                    <p class="item-inform__total-title">Total this month</p>
+                    <h2 class="item-inform__total-spent">$478.33</h2>
+                </div>
+                <div class="item-inform__increase">
+                    <p class="item-inform__increase-percent">+2.4%</p>
+                    <p class="item-inform__last-month">from last month</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
